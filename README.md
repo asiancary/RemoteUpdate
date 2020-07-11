@@ -1,8 +1,8 @@
-# 新版教室考勤自动更新 APP
+# 自动更新 APP
 
 ## 功能
 
-- 每两小时下载 http://47.106.133.29/APK/KQ/update.xml，和本地 ClassroomAttendanceVersionInfo.xml 文件比对 versionCode，发现新版本则下载 apk 并安装启动。
+- 每两小时下载，和本地 ClassroomAttendanceVersionInfo.xml 文件比对 versionCode，发现新版本则下载 apk 并安装启动。
 - 单进程双服务守护
 
 ## 编译使用说明
